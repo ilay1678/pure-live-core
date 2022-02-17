@@ -6,7 +6,6 @@
 ![](https://img.shields.io/badge/license-GPL-lightgrey.svg?style=flat-square)
 ![](https://img.shields.io/github/v/release/iyear/pure-live-core?color=red&style=flat-square)
 ![](https://img.shields.io/github/last-commit/iyear/pure-live-core?style=flat-square)
-![](https://img.shields.io/github/downloads/iyear/pure-live-core/total?style=flat-square)
 [![Go Report Card](https://goreportcard.com/badge/github.com/iyear/pure-live-core)](https://goreportcard.com/report/github.com/iyear/pure-live-core)
 
 ![](https://img.shields.io/github/workflow/status/iyear/pure-live-core/Docker%20Build?label=docker%20build&style=flat-square)
@@ -218,7 +217,9 @@ Stream: https://d1--cn-gotcha03.bilivideo.com/live-bvc/842331/live_50329118_9516
 - [x] 哔哩哔哩
 - [x] 虎牙
 - [x] 斗鱼
-- [ ] 企鹅电竞
+- [x] 企鹅电竞
+- [x] 映客
+- [ ] 网易CC
 - [ ] Twitch (等待第三方库支持 `m3u8` 拉流)
 - [ ] 咪咕体育
 
@@ -253,4 +254,4 @@ https://github.com/BacooTang/huya-danmu
 
 ## 🔖 LICENSE
 
-GPL-3.0 License
+AGPL-3.0 License

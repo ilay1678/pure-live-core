@@ -1,11 +1,14 @@
 package conf
 
+import "errors"
+
 const (
 	PlatAbstract = "abstract"
 	PlatBiliBili = "bilibili"
 	PlatHuya     = "huya"
 	PlatDouyu    = "douyu"
 	PlatEGame    = "egame"
+	PlatInke     = "inke"
 )
 
 const (
@@ -31,4 +34,14 @@ const (
 	StreamFlv  = "flv"
 	StreamHls  = "hls"
 	StreamM3U8 = "m3u8"
+)
+
+// biz key
+
+const (
+	BizRoomInfo = "ri"
+)
+
+var (
+	ErrSkip = errors.New("skip")
 )
