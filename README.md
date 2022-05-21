@@ -1,5 +1,3 @@
-![](https://socialify.git.ci/iyear/pure-live-core/image?description=1&font=Raleway&forks=1&issues=1&logo=https://s4.ax1x.com/2021/12/06/orLSGF.png&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)
-
 ## 🎉 简介
 
 ![](https://img.shields.io/github/go-mod/go-version/iyear/pure-live-core?style=flat-square)
@@ -20,23 +18,15 @@
 
 ## ✨ 特性
 
-🔎   直播间信息、直播流、弹幕流、发送弹幕
-
-⌛    平台 `Websocket` 协议封装，支持转发弹幕消息、直播间热度消息
-
-🗝️   解决跨域问题，支持直播流本地转发
-
-📂   简易的收藏夹功能支持
-
-🎯   资源占用低，5开百万热度直播间、蓝光直播流转发、弹幕全开占用 `40M` 内存
-
-🧬   跨平台支持，甚至可以运行在路由器上
-
-🔨   支持设置 `Socks5` 代理 (未测试)
-
-🧱   良好的项目结构设计，解耦直播平台和核心功能
-
-⚙️ 同时它也是一个简单的命令行工具。
+- 🔎   直播间信息、直播流、弹幕流、发送弹幕
+- ⌛    平台 `Websocket` 协议封装，支持转发弹幕消息、直播间热度消息
+- 🗝️   解决跨域问题，支持直播流本地转发
+- 📂   简易的收藏夹功能支持
+- 🎯   资源占用低，5开百万热度直播间、蓝光直播流转发、弹幕全开占用 `40M` 内存
+- 🧬   跨平台支持，甚至可以运行在路由器上
+- 🔨   支持设置 `Socks5` 代理 (未测试)
+- 🧱   良好的项目结构设计，解耦直播平台和核心功能
+- ⚙️ 同时它也是一个简单的命令行工具。
 
 ......
 
@@ -106,7 +96,7 @@ chmod +x ./pure-live
 
 查看版本:
 ```shell
-./pure-lie -v
+./pure-live -v
 ```
 
 ```
